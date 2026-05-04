@@ -1,10 +1,12 @@
+'use client';
+
 import Link from 'next/link';
 import { ArrowLeft, ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
     id: 'teacher-video',
-    title: 'Teacher-Video (AnimAgent MVP')',
+    title: 'Teacher-Video (AnimAgent MVP)',
     tag: 'AI · Education · TypeScript',
     description:
       'AI数学动画生成器，面向VideoTutor场景。实现 Generate → Execute → Validate → Fix 完整闭环循环，专为SAT/AP教学内容设计。输入数学概念，AI自动生成动画脚本，执行渲染，验证输出，自动修复错误。',
@@ -21,7 +23,7 @@ const projects = [
   },
   {
     id: 'cooper',
-    title: '企业级知识协作平台 (Cooper)',
+    title: '企业级知识协作平台',
     tag: 'B端 · 4万+用户 · React生态',
     description:
       '主导前端架构设计与0-1搭建的千万级DAU知识协作平台。包含自研超大文件高性能上传引擎（任务池、分片秒传、断点续传）、五级资源权限体系设计（文件/文件夹/团队空间/知识库/页面），以及全面的稳定性治理闭环。',

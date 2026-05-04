@@ -274,7 +274,7 @@ function FeaturedProjects() {
         '主导前端架构设计与0-1搭建。自研超大文件高性能上传引擎、五级资源权限体系设计、性能治理专项（TTI P95 ↓57.2%）。',
       tech: ['React', '微前端', 'Rspack', '协同编辑'],
       color: '#a855f7',
-      href: '/projects#cooper',
+      href: '/projects#knowledge-platform',
     },
     {
       title: 'AI First — 闭环研发自动化',
