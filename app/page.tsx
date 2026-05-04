@@ -129,7 +129,7 @@ function Hero() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00ff88] opacity-75" />
             <span className="relative inline-flex rounded-full h-2 w-2 bg-[#00ff88]" />
           </span>
-          Available for new opportunities
+          Open to exciting collaborations
         </div>
 
         {/* Name */}
