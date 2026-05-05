@@ -42,7 +42,6 @@ const about = {
     },
   ],
   contact: {
-    phone: '178-0929-7717',
     email: '1319412885@qq.com',
     github: 'https://github.com/CC-Elena',
   },
@@ -157,7 +156,6 @@ export default function About() {
           <h2 className="text-2xl font-bold mb-8 text-white">联系方式</h2>
           <div className="grid sm:grid-cols-3 gap-4">
             {[
-              { icon: '📱', label: 'Phone', value: about.contact.phone, href: `tel:${about.contact.phone.replace(/-/g, '')}` },
               { icon: '📧', label: 'Email', value: about.contact.email, href: `mailto:${about.contact.email}` },
               { icon: '💻', label: 'GitHub', value: 'CC-Elena', href: about.contact.github },
             ].map((c) => (
