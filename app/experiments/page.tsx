@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowLeft, GitBranch, Lightbulb, Beaker } from 'lucide-react';
+import { ArrowLeft, GitBranch, Beaker } from 'lucide-react';
 
 const experiments = [
   {
@@ -163,7 +163,7 @@ export default function Experiments() {
             className="inline-block px-8 py-3 rounded-lg font-semibold text-[#050508]"
             style={{ background: 'linear-gradient(135deg, #00ff88, #00cc6a)' }}
           >
-            Let's Experiment Together →
+            Let&apos;s Experiment Together →
           </a>
         </div>
       </div>
