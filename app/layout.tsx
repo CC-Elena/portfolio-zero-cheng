@@ -1,23 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "陈晨 ZeroCheng | AI Native Frontend Portfolio",
+  title: "陈晨 | AI Product Engineer · Coding Agent",
   description:
-    "陈晨的 AI Native 前端工程师个人站，展示 Agent Native 工作流、Spec-driven Coding、MCP 实践、前端架构与 Build in Public 作品集。",
+    "陈晨的个人作品集，展示 Coding Agent、AI Coding 工程化、数据洞察与 AI 多媒体应用的产品设计、系统实现和验证证据。",
+  keywords: ["AI Product Engineer", "Coding Agent", "AI Coding", "前端工程师", "Agent Harness"],
+  openGraph: {
+    title: "陈晨 | 把 AI 能力做成可靠的产品",
+    description: "Coding Agent、AI Coding 工程化与 AI 应用落地作品集。",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -26,10 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="zh-CN"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
+    <html lang="zh-CN" className="h-full antialiased">
       <body className="min-h-full flex flex-col">{children}<Analytics /><SpeedInsights /></body>
     </html>
   );
